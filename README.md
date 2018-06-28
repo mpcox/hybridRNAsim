@@ -54,10 +54,9 @@ The following figure shows the example suggested above: expression difference in
 
 The obvious test to do for our data is to match the observed settings as closely as possible, then see if the number of observed genes in each class fall within the confidence intervals of these neutral simulations. A mock-up of this is shown in the following figure.
 
-![Example Simulation Figure](mpcox/hybridRNAsim/SimulationExample.pdf "Simulation Example")
+![Example Simulation Figure](https://mpcox.github.com/hybridRNAsim/SimulationExample.pdf "Simulation Example")
 
 Murray Cox
 
 22 May 2017
-
 [Updated: 28 June 2018]
