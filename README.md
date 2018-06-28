@@ -4,15 +4,15 @@ Simulating 'neutral' gene expression patterns in hybrids and their progenitors
 
 When comparing genome-wide patterns of gene expression in hybrid species vs their parents, the changes can be divided into four main classes. 
 
-1. The homeologs match the pattern observed in the parents (I, inheritance). 
-2. The homeologs show a difference that is not seen in the parents (S, bias). 
-3. The parents have an expression difference, but this is not seen in the homeologs (L, blending). 
-4. The parents have an expression difference, and the opposite is seen in the homeologs (R, reversal).
+1. The homeologs match the pattern observed in the parents (**I**, inheritance). 
+2. The homeologs show a difference that is not seen in the parents (**S**, bias). 
+3. The parents have an expression difference, but this is not seen in the homeologs (**L**, blending). 
+4. The parents have an expression difference, and the opposite is seen in the homeologs (**R**, reversal).
 
 These patterns are described in more detail in this paper:
 
 Cox, M.P., T. Dong, G. Shen, Y. Dalvi, D.B. Scott and A.R.D. Ganley. 2014. An interspecific fungal hybrid reveals cross-kingdom rules for allopolyploid gene expression patterns. *PLoS Genetics* 10: e1004180.
-[https://doi.org/10.1371/journal.pgen.1004180]
+[https://doi.org/10.1371/journal.pgen.1004180](https://doi.org/10.1371/journal.pgen.1004180)
 
 An interesting question is whether these patterns are due to selection on functional changes, or are instead just neutral. That is, when you compare two random sets of expression profiles (such as with gene expression from two sets of homeologs), you are always going to see some distribution of I, S, L and R classes just through chance effects.  If the observed distribution does not look different from random simulations of this process, then you should favor neutrality over selection. Alternately, by looking at how the observed and simulated distributions differ, you can estimate what proportion of genes follow the neutral pattern vs possibly being under selection.  (You cannot tell which genes are under selection using this information, of course).
 
