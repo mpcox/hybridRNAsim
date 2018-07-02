@@ -1,5 +1,9 @@
 # simulate ortholog-homeolog states
 
+# Murray Cox
+# January 2017
+# Updated July 2018
+
 # notes
 # o.de is the actual number of DE genes, while o.up + o.down are the observed number of DE genes
 # these values are not comparable if o.up + o.down is set to be signficant *and* 2-fold different
