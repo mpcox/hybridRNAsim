@@ -82,6 +82,8 @@ runsims <- function(iterations, n.genes, scalar, bio.reps, significance, fold.ch
 	               test = "Wald")
 	
 	o.sim.dat <- readRDS("o.sim_DESeq2.rds")
+	file.remove("o.sim.rds")
+	file.remove("o.sim_DESeq2.rds")
 	
 	# simulate homeologs
 	h1.sim <- generateSyntheticData(dataset = "h1.sim", 
@@ -98,6 +100,8 @@ runsims <- function(iterations, n.genes, scalar, bio.reps, significance, fold.ch
 	               test = "Wald")
 	
 	h1.sim.dat <- readRDS("h1.sim_DESeq2.rds")
+	file.remove("h1.sim.rds")
+	file.remove("h1.sim_DESeq2.rds")
 	
 	# simulate homeologs for second hybrid
 	if(second.hybrid == TRUE){
@@ -114,7 +118,9 @@ runsims <- function(iterations, n.genes, scalar, bio.reps, significance, fold.ch
 		               output.directory = ".", fit.type = "parametric",
 		               test = "Wald")
 		
-		h2.sim.dat <- readRDS("h2.sim_DESeq2.rds")		
+		h2.sim.dat <- readRDS("h2.sim_DESeq2.rds")
+		file.remove("h2.sim.rds")		
+		file.remove("h2.sim_DESeq2.rds")		
 	}
 	
 	for( i in 1:iterations ){
