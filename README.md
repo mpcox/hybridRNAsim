@@ -1,7 +1,5 @@
 # hybridRNAsim
 
-### Simulating 'neutral' gene expression patterns in hybrids and their progenitors
-
 When comparing genome-wide patterns of gene expression in hybrid species vs their parents, the changes can be divided into four main classes:
 
 1. The homeologs match the pattern observed in the parents (**I**, inheritance). 
