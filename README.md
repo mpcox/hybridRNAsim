@@ -72,7 +72,7 @@ The following figure shows the loop example suggested above: expression differen
 
 The obvious test to perform is to match the observed empirical setting as closely as possible, and then see whether the number of genes observed in each class fall within the confidence intervals of these 'neutral' simulations.
 
-![Example Simulation Figure](https://github.com/mpcox/hybridRNAsim/blob/master/SimulationExample.jpg)
+![Example Simulation Figure](SimulationExample.jpg)
 
 Murray Cox
 
